@@ -38,19 +38,23 @@
 ```bash
 git clone https://github.com/Yuan1433223/yolo_dec_workpiece.git
 cd yolo_dec_workpiece
+```
 
 2. **安装依赖**
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 3. **启动系统**
 ```bash
-python app.py```
+python app.py
+```
 
 4. **访问系统**
 ```arduino
 本地访问: http://localhost:5000
-公网访问: http://your-ip:port```
+公网访问: http://your-ip:port
+```
 
 ## 📁 项目结构
 ```bash
@@ -91,7 +95,8 @@ GET /history
 
 # 获取结果图片
 GET /result/<record_id>
-返回: 检测结果图片```
+返回: 检测结果图片
+```
 
 ## 📊 性能指标
 指标	数值
@@ -109,7 +114,8 @@ CLASS_NAMES = {
     0: '你的类别1',
     1: '你的类别2', 
     2: '你的类别3'
-}```
+}
+```
 
 调整模型参数
 ```python
@@ -120,7 +126,8 @@ conf_threshold = 0.5
 img_size = 640
 
 # 修改设备
-device = 'cuda:0'  # 或 'cpu'```
+device = 'cuda:0'  # 或 'cpu'
+```
 
 ## 🤝 贡献指南
 欢迎提交Pull Request！请确保：
