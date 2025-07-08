@@ -1,0 +1,1027 @@
+2025-07-08T09:00:39.573+0800	INFO	===== Starting lingma service =====
+2025-07-08T09:00:40.642+0800	INFO	Init local db success.
+2025-07-08T09:00:40.647+0800	INFO	Lingma running on linux(amd64) at /mnt/data/.lingma_storage, version: 2.5.4
+2025-07-08T09:00:40.652+0800	INFO	Use system proxy, detect no proxy.
+2025-07-08T09:00:40.659+0800	INFO	Init local Machine Ip. ip=10.241.50.179
+2025-07-08T09:00:40.751+0800	INFO	Access lingma server success
+2025-07-08T09:00:40.753+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:40.754+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:40.754+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:40.756+0800	INFO	extension node binary not found at /mnt/data/.lingma_storage/bin/2.5.4/x86_64_linux/node, will download later.
+2025-07-08T09:00:40.759+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:00:40.759+0800	INFO	start init system context provider
+2025-07-08T09:00:40.759+0800	INFO	do start mcp severs
+2025-07-08T09:00:40.759+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:40.767+0800	INFO	init system context provider success
+2025-07-08T09:00:40.767+0800	INFO	Preparing inference environment
+2025-07-08T09:00:40.767+0800	INFO	Checking update ...
+2025-07-08T09:00:40.774+0800	INFO	local mcpConfig file not exists then create empty local mcpConfig
+2025-07-08T09:00:40.777+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:40.777+0800	WARN	Failed to read raw environment file
+2025-07-08T09:00:40.783+0800	WARN	Local model is not ready, local inference is currently unavailable
+2025-07-08T09:00:40.783+0800	INFO	Set local model service home: /mnt/data/.lingma_storage
+2025-07-08T09:00:40.785+0800	ERROR	clear index dir /mnt/data/.lingma_storage/index/meta error: open /mnt/data/.lingma_storage/index/meta: no such file or directory
+2025-07-08T09:00:40.786+0800	WARN	Failed to load model config
+2025-07-08T09:00:40.796+0800	INFO	Updating model to 0.1.0
+2025-07-08T09:00:40.797+0800	INFO	Succeed to update Cosy model
+2025-07-08T09:00:40.801+0800	INFO	No inference environment found, initialize it
+2025-07-08T09:00:40.830+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:40.881+0800	INFO	Downloading... linux-amd64.temp,  0.06% 
+
+2025-07-08T09:00:40.975+0800	INFO	Download completed. filePath: /mnt/data/.lingma_storage/model/env/linux-amd64.temp
+2025-07-08T09:00:41.008+0800	INFO	Download saved to :/mnt/data/.lingma_storage/model/env/linux-amd64
+2025-07-08T09:00:41.056+0800	INFO	Server is ready at: 36510 / 37510
+2025-07-08T09:00:41.212+0800	INFO	Succeed to create inference environment
+2025-07-08T09:00:41.213+0800	INFO	Succeed to update inference env
+2025-07-08T09:00:42.085+0800	INFO	Client 0xc000c68330 is registered
+2025-07-08T09:00:42.086+0800	INFO	initializing client: 0xc000c68330 workspace: [{/mnt/workspace workspace}], ideSeries: VSCode, idePlatform: vscode, ideVersion: 1.73.1, pluginVersion: 2.5.4
+2025-07-08T09:00:42.086+0800	INFO	create new index workspace /mnt/workspace
+2025-07-08T09:00:42.086+0800	INFO	enqueue index workspace /mnt/workspace
+2025-07-08T09:00:42.086+0800	INFO	index consume startup data:/mnt/workspace: starting index...
+2025-07-08T09:00:42.086+0800	INFO	Server initialized, time cost: 153.181µs
+2025-07-08T09:00:42.088+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:42.088+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:42.090+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:00:42.090+0800	INFO	skip gitignore file: .gitignore doesn't exist
+2025-07-08T09:00:42.097+0800	INFO	start to index files in workspace: /mnt/workspace cores:8
+2025-07-08T09:00:42.098+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:42.106+0800	INFO	initialize tree, rootPath: /mnt/workspace
+2025-07-08T09:00:42.114+0800	INFO	skip gitignore file: .gitignore doesn't exist
+2025-07-08T09:00:42.199+0800	INFO	user info not exist, not login.
+2025-07-08T09:00:42.608+0800	INFO	create index: /mnt/data/.lingma_storage/index/completion/v4/workspace_d6e695cc3e5b8127d49d16943005e950 success. cost 77.438995ms
+2025-07-08T09:00:42.634+0800	WARN	fail to locate module for dir /mnt/workspace, err: go.mod file not found
+2025-07-08T09:00:42.807+0800	INFO	indexer walk files count:71 ignore:271 walk cost:721
+2025-07-08T09:00:42.808+0800	INFO	user info not exist, not login.
+2025-07-08T09:02:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:02:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:03:39.055+0800	INFO	Reported 1/1 events
+2025-07-08T09:04:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:04:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:05:40.759+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:05:40.759+0800	INFO	user info not exist, not login.
+2025-07-08T09:05:40.763+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:05:40.768+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:05:40.770+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:05:40.777+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:05:40.788+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:05:42.643+0800	INFO	did open uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.790+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.794+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.794+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.794+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.795+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.795+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.795+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.795+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.795+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.795+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.795+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:05:42.795+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T09:06:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:06:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:06:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:08:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:08:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:09:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:10:22.031+0800	INFO	try index cache file:1
+2025-07-08T09:10:22.052+0800	INFO	user info not exist, not login.
+2025-07-08T09:10:22.052+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:10:22.052+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:10:22.052+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:10:22.114+0800	INFO	create index: /mnt/data/.lingma_storage/index/chat/v4/workspace_d6e695cc3e5b8127d49d16943005e950 success. cost 60.75027ms
+2025-07-08T09:10:22.114+0800	INFO	handle save files count:1
+2025-07-08T09:10:22.122+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:10:22.130+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:10:22.132+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:10:22.136+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:10:31.376+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T09:10:31.381+0800	INFO	user info not exist, not login.
+2025-07-08T09:10:31.395+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:10:31.395+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:10:31.395+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:10:34.230+0800	INFO	try index cache file:1
+2025-07-08T09:10:34.230+0800	INFO	user info not exist, not login.
+2025-07-08T09:10:34.234+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:10:34.239+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:10:34.246+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:10:34.250+0800	INFO	handle save files count:1
+2025-07-08T09:10:34.254+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:10:34.258+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:10:34.260+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:10:34.261+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:10:34.263+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:10:34.270+0800	INFO	index python count:0 unchanged:0 walk cost:2
+2025-07-08T09:10:37.153+0800	INFO	Client 0xc007dbcc30 is registered
+2025-07-08T09:10:37.154+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T09:10:37.154+0800	INFO	Client 0xc007dbcc30 is unregistered
+2025-07-08T09:10:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:10:40.761+0800	INFO	user info not exist, not login.
+2025-07-08T09:10:40.763+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:10:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:10:40.766+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:10:40.767+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:10:40.791+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:10:40.798+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:10:40.807+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:11:10.375+0800	INFO	did save uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T09:11:13.381+0800	INFO	try index cache file:1
+2025-07-08T09:11:13.381+0800	INFO	user info not exist, not login.
+2025-07-08T09:11:13.388+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:11:13.392+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:11:13.404+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:11:13.412+0800	INFO	handle save files count:1
+2025-07-08T09:11:13.420+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:11:13.519+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:11:13.519+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:11:13.643+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:11:13.646+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:11:13.738+0800	INFO	index python count:19 unchanged:0 walk cost:21
+2025-07-08T09:12:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:12:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:12:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:12:50.463+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T09:12:50.563+0800	INFO	user info not exist, not login.
+2025-07-08T09:12:50.567+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:12:50.575+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:12:50.583+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:13:09.711+0800	INFO	try index cache file:1
+2025-07-08T09:13:09.711+0800	INFO	user info not exist, not login.
+2025-07-08T09:13:09.719+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:13:09.724+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:13:09.732+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:13:09.744+0800	INFO	handle save files count:1
+2025-07-08T09:13:09.751+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:13:09.754+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:13:09.758+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:13:09.759+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:13:16.709+0800	INFO	try index cache file:1
+2025-07-08T09:13:16.710+0800	INFO	user info not exist, not login.
+2025-07-08T09:13:16.712+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:13:16.719+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:13:16.722+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:13:16.730+0800	INFO	handle save files count:1
+2025-07-08T09:13:16.738+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:13:16.745+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:13:16.755+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:13:16.757+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:13:25.668+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/static/css/style.css
+2025-07-08T09:13:25.681+0800	INFO	user info not exist, not login.
+2025-07-08T09:13:25.681+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:13:25.686+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:13:25.690+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:13:28.601+0800	INFO	try index cache file:1
+2025-07-08T09:13:28.602+0800	INFO	user info not exist, not login.
+2025-07-08T09:13:28.658+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:13:28.665+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:13:28.672+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:13:28.680+0800	INFO	handle save files count:1
+2025-07-08T09:13:28.691+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:13:28.696+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:13:28.702+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:13:28.704+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:13:43.867+0800	INFO	try index cache file:1
+2025-07-08T09:13:43.868+0800	INFO	user info not exist, not login.
+2025-07-08T09:13:43.872+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:13:43.886+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:13:43.893+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:13:43.893+0800	INFO	handle save files count:1
+2025-07-08T09:13:43.901+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:13:43.907+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:13:43.916+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:13:43.921+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:13:58.357+0800	INFO	did delete uri:[{/mnt/workspace/yolo_detection_system/static/css/js}]
+2025-07-08T09:14:01.364+0800	INFO	try index cache file:1
+2025-07-08T09:14:01.364+0800	INFO	user info not exist, not login.
+2025-07-08T09:14:01.368+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:14:01.372+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:14:01.375+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:14:01.378+0800	INFO	handle delete files count:1
+2025-07-08T09:14:01.385+0800	INFO	remove completion rag file:1
+2025-07-08T09:14:01.391+0800	INFO	remove files success:1
+2025-07-08T09:14:01.397+0800	INFO	need to remove chat text rag engine file count:1
+2025-07-08T09:14:01.398+0800	INFO	remove files success:1
+2025-07-08T09:14:01.404+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T09:14:07.827+0800	INFO	try index cache file:1
+2025-07-08T09:14:07.827+0800	INFO	user info not exist, not login.
+2025-07-08T09:14:07.830+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:14:07.854+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:14:07.857+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:14:07.869+0800	INFO	handle save files count:1
+2025-07-08T09:14:07.876+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:14:07.884+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:14:07.890+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:14:07.892+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:14:16.700+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/static/js/main.js
+2025-07-08T09:14:16.718+0800	INFO	user info not exist, not login.
+2025-07-08T09:14:16.724+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:14:16.746+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:14:16.753+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:14:19.624+0800	INFO	try index cache file:1
+2025-07-08T09:14:19.626+0800	INFO	user info not exist, not login.
+2025-07-08T09:14:19.628+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:14:19.632+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:14:19.640+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:14:19.647+0800	INFO	handle save files count:1
+2025-07-08T09:14:19.651+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:14:19.656+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:14:19.662+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:14:19.667+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:14:19.671+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:14:19.688+0800	INFO	index javascript count:0 nochange:0 walk cost:2
+2025-07-08T09:14:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:14:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:14:54.162+0800	INFO	try index cache file:1
+2025-07-08T09:14:54.163+0800	INFO	user info not exist, not login.
+2025-07-08T09:14:54.167+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:14:54.171+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:14:54.183+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:14:54.193+0800	INFO	handle save files count:1
+2025-07-08T09:14:54.221+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:14:54.228+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:14:54.238+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:14:54.244+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:15:01.004+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/templates/index.html
+2025-07-08T09:15:01.012+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:01.018+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:15:01.023+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:15:01.031+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:15:03.820+0800	INFO	try index cache file:1
+2025-07-08T09:15:03.820+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:03.827+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:15:03.833+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:15:03.839+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:15:03.844+0800	INFO	handle save files count:1
+2025-07-08T09:15:03.844+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:15:03.852+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:15:03.869+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:15:03.874+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:15:13.960+0800	INFO	try index cache file:1
+2025-07-08T09:15:13.960+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:13.965+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:15:13.969+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:15:13.977+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:15:13.994+0800	INFO	handle save files count:1
+2025-07-08T09:15:14.002+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:15:14.006+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:15:14.011+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:15:14.014+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:15:24.091+0800	INFO	try index cache file:1
+2025-07-08T09:15:24.091+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:24.094+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:15:24.098+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:15:24.098+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:15:24.102+0800	INFO	handle save files count:1
+2025-07-08T09:15:24.105+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:15:24.113+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:15:24.125+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:15:24.134+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:15:34.105+0800	INFO	try index cache file:1
+2025-07-08T09:15:34.107+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:34.114+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:15:34.124+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:15:34.188+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:15:34.192+0800	INFO	handle save files count:1
+2025-07-08T09:15:34.198+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:15:34.222+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:15:34.287+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:15:34.291+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:15:39.001+0800	INFO	Reported 0/0 events
+2025-07-08T09:15:40.000+0800	INFO	Checking service state
+2025-07-08T09:15:40.002+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:15:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:40.773+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:15:40.791+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:15:40.801+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:15:40.807+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:15:40.840+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:15:43.752+0800	INFO	try index cache file:1
+2025-07-08T09:15:43.752+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:43.761+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:15:43.765+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:15:43.773+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:15:43.779+0800	INFO	handle save files count:1
+2025-07-08T09:15:43.785+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:15:43.793+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:15:43.794+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:15:43.810+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:15:52.264+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/utils/detector.py
+2025-07-08T09:15:52.269+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:52.277+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:15:52.316+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:15:52.326+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:15:55.131+0800	INFO	try index cache file:1
+2025-07-08T09:15:55.132+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:55.135+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:15:55.140+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:15:55.147+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:15:55.156+0800	INFO	handle save files count:1
+2025-07-08T09:15:55.168+0800	INFO	index python count:0 unchanged:0 walk cost:2
+2025-07-08T09:15:55.172+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:15:55.180+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:15:55.183+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:15:55.192+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:15:55.201+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:15:59.582+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/templates/index.html
+2025-07-08T09:15:59.591+0800	INFO	user info not exist, not login.
+2025-07-08T09:15:59.617+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:15:59.621+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:15:59.621+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:16:03.006+0800	INFO	did save uri:/mnt/workspace/yolo_detection_system/templates/index.html
+2025-07-08T09:16:06.009+0800	INFO	try index cache file:1
+2025-07-08T09:16:06.009+0800	INFO	user info not exist, not login.
+2025-07-08T09:16:06.022+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:16:06.027+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:16:06.036+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:16:06.036+0800	INFO	handle save files count:1
+2025-07-08T09:16:06.043+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:16:06.047+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:16:06.159+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:16:06.159+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:16:10.503+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/static/css/style.css
+2025-07-08T09:16:10.510+0800	INFO	user info not exist, not login.
+2025-07-08T09:16:10.515+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:16:10.519+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:16:10.519+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:16:13.067+0800	INFO	did save uri:/mnt/workspace/yolo_detection_system/static/css/style.css
+2025-07-08T09:16:16.069+0800	INFO	try index cache file:1
+2025-07-08T09:16:16.069+0800	INFO	user info not exist, not login.
+2025-07-08T09:16:16.074+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:16:16.080+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:16:16.083+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:16:16.083+0800	INFO	handle save files count:1
+2025-07-08T09:16:16.086+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:16:16.094+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:16:16.213+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:16:16.213+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:16:19.400+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/static/js/main.js
+2025-07-08T09:16:19.411+0800	INFO	user info not exist, not login.
+2025-07-08T09:16:19.415+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:16:19.430+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:16:19.437+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:16:21.670+0800	INFO	did save uri:/mnt/workspace/yolo_detection_system/static/js/main.js
+2025-07-08T09:16:24.672+0800	INFO	try index cache file:1
+2025-07-08T09:16:24.672+0800	INFO	user info not exist, not login.
+2025-07-08T09:16:24.676+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:16:24.680+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:16:24.692+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:16:24.748+0800	INFO	handle save files count:1
+2025-07-08T09:16:24.835+0800	INFO	index javascript count:0 nochange:0 walk cost:59
+2025-07-08T09:16:24.876+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:16:25.217+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:16:25.217+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:16:25.327+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:16:25.327+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T09:16:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:16:40.765+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:16:42.554+0800	INFO	did open uri:/mnt/workspace/requirements.txt
+2025-07-08T09:16:48.284+0800	INFO	did save uri:/mnt/workspace/requirements.txt
+2025-07-08T09:16:55.338+0800	INFO	did save uri:/mnt/workspace/requirements.txt
+2025-07-08T09:16:56.374+0800	INFO	did save uri:/mnt/workspace/requirements.txt
+2025-07-08T09:16:57.752+0800	INFO	did close uri:/mnt/workspace/requirements.txt
+2025-07-08T09:16:57.759+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/static/js/main.js
+2025-07-08T09:16:57.979+0800	INFO	user info not exist, not login.
+2025-07-08T09:16:57.983+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:16:57.986+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:16:57.990+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:17:07.788+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T09:17:07.884+0800	INFO	user info not exist, not login.
+2025-07-08T09:17:07.887+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:17:07.902+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:17:07.908+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:17:33.174+0800	INFO	did save uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T09:17:36.176+0800	INFO	try index cache file:1
+2025-07-08T09:17:36.176+0800	INFO	user info not exist, not login.
+2025-07-08T09:17:36.178+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:17:36.182+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:17:36.182+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:17:36.187+0800	INFO	handle save files count:1
+2025-07-08T09:17:36.190+0800	INFO	index completion rag chunks file count:1
+2025-07-08T09:17:36.325+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:17:36.329+0800	INFO	index chat text rag engine file count:1
+2025-07-08T09:17:36.452+0800	INFO	index batch text retrieve file:1
+2025-07-08T09:17:36.452+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T09:17:36.475+0800	INFO	index python count:19 unchanged:0 walk cost:20
+2025-07-08T09:18:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:18:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:18:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:20:37.151+0800	INFO	Client 0xc007d6e410 is registered
+2025-07-08T09:20:37.152+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T09:20:37.159+0800	INFO	Client 0xc007d6e410 is unregistered
+2025-07-08T09:20:40.759+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:20:40.759+0800	INFO	user info not exist, not login.
+2025-07-08T09:20:40.763+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:20:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:20:40.766+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:20:40.766+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:20:40.775+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:20:40.781+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:20:40.787+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:21:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:22:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:22:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:24:39.001+0800	INFO	Reported 0/0 events
+2025-07-08T09:24:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:24:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:25:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:25:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T09:25:40.764+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:25:40.766+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:25:40.768+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:25:40.773+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:25:40.809+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:26:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:26:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:27:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:28:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:28:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:30:37.153+0800	INFO	Client 0xc007dd60a0 is registered
+2025-07-08T09:30:37.155+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T09:30:37.157+0800	INFO	Client 0xc007dd60a0 is unregistered
+2025-07-08T09:30:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:30:40.001+0800	INFO	Checking service state
+2025-07-08T09:30:40.001+0800	INFO	user info not exist, not login.
+2025-07-08T09:30:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:30:40.762+0800	INFO	user info not exist, not login.
+2025-07-08T09:30:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:30:40.835+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:30:40.842+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:30:40.835+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:30:40.845+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:30:40.850+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:30:40.859+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:31:26.453+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/results/records/be82f458-b156-4c95-8bc4-fab488cd77c1.json
+2025-07-08T09:31:26.468+0800	INFO	user info not exist, not login.
+2025-07-08T09:31:26.472+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:31:26.485+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:31:26.566+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:32:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:32:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:33:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:34:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:34:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:35:40.759+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:35:40.761+0800	INFO	user info not exist, not login.
+2025-07-08T09:35:40.764+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:35:40.768+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:35:40.772+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:35:40.783+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:35:40.793+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:36:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:36:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:36:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:38:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:38:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:39:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:40:37.154+0800	INFO	Client 0xc007eea0f0 is registered
+2025-07-08T09:40:37.156+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T09:40:37.192+0800	INFO	Client 0xc007eea0f0 is unregistered
+2025-07-08T09:40:40.759+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:40:40.759+0800	INFO	user info not exist, not login.
+2025-07-08T09:40:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:40:40.772+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:40:40.772+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:40:40.793+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:40:40.805+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:40:40.809+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:40:40.814+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:40:44.636+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T09:40:44.726+0800	INFO	user info not exist, not login.
+2025-07-08T09:40:44.730+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:40:44.738+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:40:44.746+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:40:52.592+0800	INFO	did close uri:/mnt/workspace/yolo_detection_system/results/records/be82f458-b156-4c95-8bc4-fab488cd77c1.json
+2025-07-08T09:41:02.014+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T09:41:02.096+0800	INFO	user info not exist, not login.
+2025-07-08T09:41:02.100+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:41:02.109+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:41:02.164+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:42:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:42:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:42:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:42:57.114+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/results/records/af21032b-b4a7-4b8f-b976-a4e90426051b.json
+2025-07-08T09:42:57.126+0800	INFO	user info not exist, not login.
+2025-07-08T09:42:57.127+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:42:57.140+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:42:57.144+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:43:12.355+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T09:43:12.502+0800	INFO	user info not exist, not login.
+2025-07-08T09:43:12.506+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:43:12.513+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:43:12.522+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:44:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:44:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:45:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:45:40.000+0800	INFO	Checking service state
+2025-07-08T09:45:40.001+0800	INFO	user info not exist, not login.
+2025-07-08T09:45:40.759+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:45:40.759+0800	INFO	user info not exist, not login.
+2025-07-08T09:45:40.767+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:45:40.776+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:45:40.785+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:45:40.787+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:45:40.794+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:46:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:46:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:48:37.040+0800	INFO	did close uri:/mnt/workspace/yolo_detection_system/results/records/af21032b-b4a7-4b8f-b976-a4e90426051b.json
+2025-07-08T09:48:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:48:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:48:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:48:47.035+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T09:48:47.117+0800	INFO	user info not exist, not login.
+2025-07-08T09:48:47.122+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T09:48:47.194+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T09:48:47.404+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T09:50:37.155+0800	INFO	Client 0xc007d6e160 is registered
+2025-07-08T09:50:37.158+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T09:50:37.163+0800	INFO	Client 0xc007d6e160 is unregistered
+2025-07-08T09:50:40.759+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:50:40.759+0800	INFO	user info not exist, not login.
+2025-07-08T09:50:40.763+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:50:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:50:40.767+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:50:40.767+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:50:40.776+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:50:40.800+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:50:40.817+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:51:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:52:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:52:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:54:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T09:54:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:54:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:55:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T09:55:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T09:55:40.794+0800	INFO	current login user not open pullServerConfig
+2025-07-08T09:55:40.802+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T09:55:40.807+0800	INFO	start notify node vm to refresh config
+2025-07-08T09:55:40.809+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T09:55:40.817+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T09:56:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:56:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T09:57:39.001+0800	INFO	Reported 0/0 events
+2025-07-08T09:58:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T09:58:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:00:37.152+0800	INFO	Client 0xc007dd60b0 is registered
+2025-07-08T10:00:37.154+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T10:00:37.164+0800	INFO	Client 0xc007dd60b0 is unregistered
+2025-07-08T10:00:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:00:39.000+0800	INFO	user info not exist, not login.
+2025-07-08T10:00:40.000+0800	INFO	Checking service state
+2025-07-08T10:00:40.000+0800	INFO	user info not exist, not login.
+2025-07-08T10:00:40.000+0800	INFO	user info not exist, not login.
+2025-07-08T10:00:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T10:00:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T10:00:40.767+0800	INFO	current login user not open pullServerConfig
+2025-07-08T10:00:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:00:40.772+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T10:00:40.772+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:00:40.781+0800	INFO	start notify node vm to refresh config
+2025-07-08T10:00:40.783+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T10:00:40.788+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T10:01:57.934+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/static/js/main.js
+2025-07-08T10:01:58.040+0800	INFO	user info not exist, not login.
+2025-07-08T10:01:58.044+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:01:58.052+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:01:58.058+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:01:58.486+0800	INFO	did close uri:/mnt/workspace/yolo_detection_system/static/js/main.js
+2025-07-08T10:01:58.491+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T10:01:58.585+0800	INFO	user info not exist, not login.
+2025-07-08T10:01:58.589+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:01:58.600+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:01:58.607+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:01:59.106+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/static/css/style.css
+2025-07-08T10:01:59.117+0800	INFO	user info not exist, not login.
+2025-07-08T10:01:59.122+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:01:59.126+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:01:59.134+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:01:59.862+0800	INFO	did close uri:/mnt/workspace/yolo_detection_system/static/css/style.css
+2025-07-08T10:01:59.878+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T10:01:59.959+0800	INFO	user info not exist, not login.
+2025-07-08T10:01:59.963+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:01:59.974+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:01:59.986+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:02:00.600+0800	INFO	did close uri:/mnt/workspace/yolo_detection_system/templates/index.html
+2025-07-08T10:02:01.057+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/utils/detector.py
+2025-07-08T10:02:01.069+0800	INFO	user info not exist, not login.
+2025-07-08T10:02:01.072+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:02:01.082+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:02:01.089+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:02:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:02:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:03:39.052+0800	INFO	Reported 1/1 events
+2025-07-08T10:03:47.431+0800	INFO	did open uri:/mnt/workspace/README.md
+2025-07-08T10:03:47.439+0800	INFO	user info not exist, not login.
+2025-07-08T10:03:47.441+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:03:47.445+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:03:47.445+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:03:50.341+0800	INFO	try index cache file:1
+2025-07-08T10:03:50.341+0800	INFO	user info not exist, not login.
+2025-07-08T10:03:50.349+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:03:50.353+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:03:50.360+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:03:50.367+0800	INFO	handle save files count:1
+2025-07-08T10:03:50.371+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:03:50.375+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:03:50.379+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:03:50.382+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T10:04:05.577+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:04:08.577+0800	INFO	try index cache file:1
+2025-07-08T10:04:08.577+0800	INFO	user info not exist, not login.
+2025-07-08T10:04:08.582+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:04:08.585+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:04:08.589+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:04:08.594+0800	INFO	handle save files count:1
+2025-07-08T10:04:08.603+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:04:08.610+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:04:08.732+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:04:08.732+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T10:04:10.509+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:04:13.510+0800	INFO	try index cache file:1
+2025-07-08T10:04:13.510+0800	INFO	user info not exist, not login.
+2025-07-08T10:04:13.518+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:04:13.528+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:04:13.573+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:04:13.580+0800	INFO	handle save files count:1
+2025-07-08T10:04:13.586+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:04:13.593+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:04:14.120+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:04:14.125+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:04:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:04:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:04:47.203+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:04:50.204+0800	INFO	try index cache file:1
+2025-07-08T10:04:50.221+0800	INFO	user info not exist, not login.
+2025-07-08T10:04:50.223+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:04:50.228+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:04:50.236+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:04:50.284+0800	INFO	handle save files count:1
+2025-07-08T10:04:50.295+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:04:50.299+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:04:50.384+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:04:50.384+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:04:55.161+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:04:57.392+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:00.392+0800	INFO	try index cache file:2
+2025-07-08T10:05:00.392+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:00.417+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:00.424+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:00.431+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:00.439+0800	INFO	handle save files count:1
+2025-07-08T10:05:00.446+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:05:00.456+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:00.605+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:00.605+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:05:01.125+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:04.126+0800	INFO	try index cache file:1
+2025-07-08T10:05:04.127+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:04.136+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:04.144+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:04.151+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:04.155+0800	INFO	handle save files count:1
+2025-07-08T10:05:04.170+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:05:04.177+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:04.269+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:04.269+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:05:09.234+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:11.079+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:14.080+0800	INFO	try index cache file:2
+2025-07-08T10:05:14.080+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:14.084+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:14.088+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:14.096+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:14.125+0800	INFO	handle save files count:1
+2025-07-08T10:05:14.132+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:05:14.139+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:14.228+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:14.228+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:05:17.427+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:20.428+0800	INFO	try index cache file:1
+2025-07-08T10:05:20.428+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:20.437+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:20.441+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:20.445+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:20.456+0800	INFO	handle save files count:1
+2025-07-08T10:05:20.457+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:05:20.465+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:20.550+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:20.550+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:05:23.444+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:26.445+0800	INFO	try index cache file:1
+2025-07-08T10:05:26.445+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:26.452+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:26.456+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:26.463+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:26.473+0800	INFO	handle save files count:1
+2025-07-08T10:05:26.483+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:05:26.490+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:26.585+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:26.585+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:05:28.965+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:31.966+0800	INFO	try index cache file:1
+2025-07-08T10:05:31.966+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:31.979+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:31.992+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:32.006+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:32.015+0800	INFO	handle save files count:1
+2025-07-08T10:05:32.020+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:05:32.033+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:32.175+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:32.175+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:05:34.658+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:37.479+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:40.480+0800	INFO	try index cache file:2
+2025-07-08T10:05:40.480+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:40.489+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:40.496+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:40.505+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:40.512+0800	INFO	handle save files count:1
+2025-07-08T10:05:40.525+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:40.612+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:40.612+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:05:40.613+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:05:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T10:05:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:40.763+0800	INFO	current login user not open pullServerConfig
+2025-07-08T10:05:40.766+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T10:05:40.768+0800	INFO	start notify node vm to refresh config
+2025-07-08T10:05:40.769+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T10:05:40.775+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T10:05:43.611+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:46.612+0800	INFO	try index cache file:1
+2025-07-08T10:05:46.613+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:46.623+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:46.632+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:46.854+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:46.864+0800	INFO	handle save files count:1
+2025-07-08T10:05:46.884+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:05:46.887+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:46.893+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:46.895+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T10:05:48.421+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:51.422+0800	INFO	try index cache file:1
+2025-07-08T10:05:51.422+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:51.431+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:51.442+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:51.446+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:51.450+0800	INFO	handle save files count:1
+2025-07-08T10:05:51.458+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:05:51.465+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:51.471+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:51.477+0800	INFO	need to remove chat vector rag engine file count:0
+2025-07-08T10:05:52.298+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:05:55.299+0800	INFO	try index cache file:1
+2025-07-08T10:05:55.299+0800	INFO	user info not exist, not login.
+2025-07-08T10:05:55.315+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:05:55.322+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:05:55.334+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:05:55.343+0800	INFO	handle save files count:1
+2025-07-08T10:05:55.354+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:05:55.439+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:05:55.439+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:05:55.439+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:06:00.529+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:03.084+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:06.084+0800	INFO	try index cache file:2
+2025-07-08T10:06:06.086+0800	INFO	user info not exist, not login.
+2025-07-08T10:06:06.108+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:06:06.112+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:06:06.119+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:06:06.138+0800	INFO	handle save files count:1
+2025-07-08T10:06:06.142+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:06:06.146+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:06:06.221+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:06:06.221+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:06:09.361+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:12.362+0800	INFO	try index cache file:1
+2025-07-08T10:06:12.362+0800	INFO	user info not exist, not login.
+2025-07-08T10:06:12.374+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:06:12.385+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:06:12.391+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:06:12.396+0800	INFO	handle save files count:1
+2025-07-08T10:06:12.400+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:06:12.406+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:06:12.679+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:06:12.679+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:06:14.856+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:17.857+0800	INFO	try index cache file:1
+2025-07-08T10:06:17.857+0800	INFO	user info not exist, not login.
+2025-07-08T10:06:17.861+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:06:17.866+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:06:17.870+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:06:17.922+0800	INFO	handle save files count:1
+2025-07-08T10:06:17.944+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:06:17.956+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:06:18.040+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:06:18.040+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:06:23.428+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:26.428+0800	INFO	try index cache file:1
+2025-07-08T10:06:26.429+0800	INFO	user info not exist, not login.
+2025-07-08T10:06:26.435+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:06:26.443+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:06:26.447+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:06:26.451+0800	INFO	handle save files count:1
+2025-07-08T10:06:26.459+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:06:26.466+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:06:26.539+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:06:26.539+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:06:29.553+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:31.208+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:34.209+0800	INFO	try index cache file:2
+2025-07-08T10:06:34.209+0800	INFO	user info not exist, not login.
+2025-07-08T10:06:34.218+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:06:34.231+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:06:34.292+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:06:34.299+0800	INFO	handle save files count:1
+2025-07-08T10:06:34.308+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:06:34.311+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:06:34.403+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:06:34.403+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:06:36.021+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:37.617+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:06:39.077+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:06:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:06:42.078+0800	INFO	try index cache file:3
+2025-07-08T10:06:42.078+0800	INFO	user info not exist, not login.
+2025-07-08T10:06:42.081+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:06:42.086+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:06:42.089+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:06:42.093+0800	INFO	handle save files count:1
+2025-07-08T10:06:42.100+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:06:42.108+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:06:42.211+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:06:42.211+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:06:44.816+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:06:47.816+0800	INFO	try index cache file:1
+2025-07-08T10:06:47.816+0800	INFO	user info not exist, not login.
+2025-07-08T10:06:47.834+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:06:47.842+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:06:47.851+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:06:47.860+0800	INFO	handle save files count:1
+2025-07-08T10:06:47.869+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:06:47.878+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:06:47.970+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:06:47.970+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:08:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:08:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:09:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:10:03.761+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:10:06.762+0800	INFO	try index cache file:1
+2025-07-08T10:10:06.762+0800	INFO	user info not exist, not login.
+2025-07-08T10:10:06.779+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:10:06.787+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:10:06.814+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:10:06.869+0800	INFO	handle save files count:1
+2025-07-08T10:10:06.877+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:10:06.884+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:10:06.971+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:10:06.976+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:10:13.756+0800	INFO	did save uri:/mnt/workspace/README.md
+2025-07-08T10:10:16.757+0800	INFO	try index cache file:1
+2025-07-08T10:10:16.757+0800	INFO	user info not exist, not login.
+2025-07-08T10:10:16.761+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:10:16.765+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:10:16.772+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:10:16.781+0800	INFO	handle save files count:1
+2025-07-08T10:10:16.785+0800	INFO	index completion rag chunks file count:1
+2025-07-08T10:10:16.789+0800	INFO	index chat text rag engine file count:1
+2025-07-08T10:10:16.963+0800	INFO	index batch text retrieve file:1
+2025-07-08T10:10:16.963+0800	INFO	need to remove chat vector rag engine file count:1
+2025-07-08T10:10:37.153+0800	INFO	Client 0xc009a980b0 is registered
+2025-07-08T10:10:37.154+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T10:10:37.212+0800	INFO	Client 0xc009a980b0 is unregistered
+2025-07-08T10:10:40.759+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T10:10:40.759+0800	INFO	user info not exist, not login.
+2025-07-08T10:10:40.765+0800	INFO	user info not exist, not login.
+2025-07-08T10:10:40.767+0800	INFO	current login user not open pullServerConfig
+2025-07-08T10:10:40.770+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T10:10:40.767+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:10:40.783+0800	INFO	start notify node vm to refresh config
+2025-07-08T10:10:40.784+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T10:10:40.791+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T10:12:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:12:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:12:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:14:40.765+0800	INFO	user info not exist, not login.
+2025-07-08T10:14:40.765+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:15:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:15:40.000+0800	INFO	Checking service state
+2025-07-08T10:15:40.001+0800	INFO	user info not exist, not login.
+2025-07-08T10:15:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T10:15:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T10:15:40.764+0800	INFO	current login user not open pullServerConfig
+2025-07-08T10:15:40.767+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T10:15:40.777+0800	INFO	start notify node vm to refresh config
+2025-07-08T10:15:40.783+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T10:15:40.791+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T10:16:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:16:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:18:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:18:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:18:40.765+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:19:21.337+0800	INFO	did open uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:20:37.154+0800	INFO	Client 0xc0097d40a0 is registered
+2025-07-08T10:20:37.156+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T10:20:37.159+0800	INFO	Client 0xc0097d40a0 is unregistered
+2025-07-08T10:20:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T10:20:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T10:20:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:20:40.767+0800	INFO	current login user not open pullServerConfig
+2025-07-08T10:20:40.767+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:20:40.771+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T10:20:40.779+0800	INFO	start notify node vm to refresh config
+2025-07-08T10:20:40.781+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T10:20:40.794+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T10:21:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:22:22.474+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.479+0800	INFO	did close uri:/mnt/workspace/train_model.ipynb
+2025-07-08T10:22:22.484+0800	INFO	did open uri:/mnt/workspace/README.md
+2025-07-08T10:22:22.502+0800	INFO	user info not exist, not login.
+2025-07-08T10:22:22.502+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:22:22.507+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:22:22.511+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:22:23.004+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/app.py
+2025-07-08T10:22:23.107+0800	INFO	user info not exist, not login.
+2025-07-08T10:22:23.110+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:22:23.147+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:22:23.156+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:22:40.766+0800	INFO	user info not exist, not login.
+2025-07-08T10:22:40.766+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:24:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:24:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:24:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:24:46.057+0800	INFO	did open uri:/mnt/workspace/yolo_detection_system/results/records/cde3f78d-7923-404d-8594-338176a4b02e.json
+2025-07-08T10:24:46.064+0800	INFO	user info not exist, not login.
+2025-07-08T10:24:46.064+0800	ERROR	[codebase]-[storage] calculate embedding dim error: cached userinfo is nil
+2025-07-08T10:24:46.068+0800	ERROR	[codebase]-[vector engine] create sqlite client failed, err: [codebase]-[storage] get embedding dim error
+2025-07-08T10:24:46.072+0800	ERROR	Error to initialize chat vector indexer for /mnt/workspace
+2025-07-08T10:25:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T10:25:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T10:25:40.772+0800	INFO	current login user not open pullServerConfig
+2025-07-08T10:25:40.787+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T10:25:40.813+0800	INFO	start notify node vm to refresh config
+2025-07-08T10:25:40.826+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T10:25:40.837+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T10:26:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:26:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:27:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:28:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:28:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:30:37.153+0800	INFO	Client 0xc00400e180 is registered
+2025-07-08T10:30:37.155+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T10:30:37.158+0800	INFO	Client 0xc00400e180 is unregistered
+2025-07-08T10:30:39.001+0800	INFO	Reported 0/0 events
+2025-07-08T10:30:40.001+0800	INFO	Checking service state
+2025-07-08T10:30:40.002+0800	INFO	user info not exist, not login.
+2025-07-08T10:30:40.759+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T10:30:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T10:30:40.763+0800	INFO	current login user not open pullServerConfig
+2025-07-08T10:30:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:30:40.767+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T10:30:40.767+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:30:40.771+0800	INFO	start notify node vm to refresh config
+2025-07-08T10:30:40.776+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T10:30:40.787+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T10:32:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:32:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:33:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:34:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:34:40.765+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:35:40.760+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T10:35:40.760+0800	INFO	user info not exist, not login.
+2025-07-08T10:35:40.763+0800	INFO	current login user not open pullServerConfig
+2025-07-08T10:35:40.769+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T10:35:40.777+0800	INFO	start notify node vm to refresh config
+2025-07-08T10:35:40.784+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T10:35:40.794+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T10:36:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:36:40.765+0800	INFO	user info not exist, not login.
+2025-07-08T10:36:40.765+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:38:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:38:40.764+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:39:39.000+0800	INFO	Reported 0/0 events
+2025-07-08T10:40:37.153+0800	INFO	Client 0xc00980e0e0 is registered
+2025-07-08T10:40:37.155+0800	INFO	Connection closed: websocket: close 1005 (no status)
+2025-07-08T10:40:37.156+0800	INFO	Client 0xc00980e0e0 is unregistered
+2025-07-08T10:40:40.759+0800	INFO	do pull config.json from server on schedule with period:5
+2025-07-08T10:40:40.759+0800	INFO	user info not exist, not login.
+2025-07-08T10:40:40.763+0800	INFO	current login user not open pullServerConfig
+2025-07-08T10:40:40.764+0800	INFO	user info not exist, not login.
+2025-07-08T10:40:40.767+0800	INFO	current not public enterprise user,not open pullServerExtension config
+2025-07-08T10:40:40.767+0800	INFO	current login user not open downloadNodeVm
+2025-07-08T10:40:40.777+0800	INFO	start notify node vm to refresh config
+2025-07-08T10:40:40.780+0800	WARN	ExtensionApi executor not inited.
+2025-07-08T10:40:40.788+0800	INFO	Broadcast 1 clients, 1 success
+2025-07-08T10:42:39.000+0800	INFO	Reported 0/0 events

@@ -1,0 +1,8 @@
+names:
+  0: 聚酯电容
+  1: 热敏电阻
+  2: 三端稳压管
+nc: 3
+path: /mnt/workspace/yolo_data
+train: images/train
+val: images/val

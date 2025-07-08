@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工件检测系统 - AI智能识别</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-microchip"></i> 工件检测系统</h1>
+                <p>基于YOLOv11的智能工件识别平台</p>
+            </div>
+        </header>
+
+        <!-- 主要内容 -->
+        <main class="main-content">
+            <!-- 上传区域 -->
+            <section class="upload-section">
+                <div class="upload-container">
+                    <div class="upload-area" id="uploadArea">
+                        <div class="upload-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <h3>拖拽图片到此处或点击上传</h3>
+                        <p>支持 JPG、PNG、BMP 等格式，最大16MB</p>
+                        <input type="file" id="fileInput" accept=".jpg,.jpeg,.png,.bmp,.gif,.tiff" hidden>
+                        <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                            <i class="fas fa-plus"></i> 选择文件
+                        </button>
+                    </div>
+                    
+                    <!-- 置信度设置 -->
+                    <div class="confidence-setting">
+                        <label for="confidence">检测置信度:</label>
+                        <input type="range" id="confidence" min="0.1" max="1.0" step="0.1" value="0.5">
+                        <span id="confidenceValue">0.5</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 结果显示区域 -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <div class="results-container">
+                    <h2><i class="fas fa-chart-line"></i> 检测结果</h2>
+                    
+                    <!-- 统计信息 -->
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number" id="detectionCount">0</div>
+                            <div class="stat-label">检测到的目标</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="processingTime">0</div>
+                            <div class="stat-label">处理时间(秒)</div>
+                        </div>
+                    </div>
+
+                    <!-- 图片对比 -->
+                    <div class="image-comparison">
+                        <div class="image-container">
+                            <h3>原始图片</h3>
+                            <img id="originalImage" alt="原始图片">
+                        </div>
+                        <div class="image-container">
+                            <h3>检测结果</h3>
+                            <img id="resultImage" alt="检测结果">
+                        </div>
+                    </div>
+
+                    <!-- 检测详情 -->
+                    <div class="detection-details">
+                        <h3><i class="fas fa-list"></i> 检测详情</h3>
+                        <div id="detectionList" class="detection-list"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 历史记录 -->
+            <section class="history-section">
+                <div class="history-container">
+                    <h2><i class="fas fa-history"></i> 检测历史</h2>
+                    <button class="refresh-btn" onclick="loadHistory()">
+                        <i class="fas fa-sync-alt"></i> 刷新
+                    </button>
+                    <div id="historyList" class="history-list"></div>
+                </div>
+            </section>
+        </main>
+
+        <!-- 加载动画 -->
+        <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>正在处理图片，请稍候...</p>
+            </div>
+        </div>
+
+        <!-- 消息提示 -->
+        <div id="messageContainer"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

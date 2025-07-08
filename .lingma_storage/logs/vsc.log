@@ -1,0 +1,28 @@
+2025-07-08 09:00:37 info: Lingma [version: 2.5.4, lang: en, platform: linux, arch: x64, appName=code-server, runMode: local, extensionKind=2, remoteName=dsw-gateway-cn-hangzhou.data.aliyun.com, wsl=undefined, remoteContainers=undefined, extensionMode=1] is starting now!
+2025-07-08 09:00:37 info: Congratulations, "Lingma" is now active!
+2025-07-08 09:00:38 info: start update lingma binary: /root/.local/share/code-server/extensions/alibaba-cloud.tongyi-lingma-2.5.4-universal/dist
+2025-07-08 09:00:38 info: lingma info not exist. infoFile=/mnt/data/.lingma_storage/.info
+2025-07-08 09:00:38 info: read lingma info. pid=undefined
+2025-07-08 09:00:38 info: unzipLingma: start
+2025-07-08 09:00:38 info: unzip onclose
+2025-07-08 09:00:38 info: unzip onfinish
+2025-07-08 09:00:39 info: lingma info not exist. infoFile=/mnt/data/.lingma_storage/.info
+2025-07-08 09:00:39 info: read cosy info empty, start lingma process now. 
+2025-07-08 09:00:39 info: try to start lingma process.
+2025-07-08 09:00:39 info: current lingma version is 2.5.4, retry times: 0
+2025-07-08 09:00:39 info: start lingma process successfully.
+2025-07-08 09:00:42 info: lingma try to connect to language server.
+2025-07-08 09:00:42 info: try to create ws connection
+2025-07-08 09:00:42 info: lingma connected to language server successfully.
+2025-07-08 09:00:42 info: auth status synced. id=, status=1, whitelist=1, token=
+2025-07-08 09:00:42 info: auth status synced. id=, status=1, whitelist=1, token=
+2025-07-08 09:10:37 info: try to create ws connection
+2025-07-08 09:20:37 info: try to create ws connection
+2025-07-08 09:30:37 info: try to create ws connection
+2025-07-08 09:40:37 info: try to create ws connection
+2025-07-08 09:50:37 info: try to create ws connection
+2025-07-08 10:00:37 info: try to create ws connection
+2025-07-08 10:10:37 info: try to create ws connection
+2025-07-08 10:20:37 info: try to create ws connection
+2025-07-08 10:30:37 info: try to create ws connection
+2025-07-08 10:40:37 info: try to create ws connection

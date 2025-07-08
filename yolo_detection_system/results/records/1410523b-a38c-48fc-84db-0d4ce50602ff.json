@@ -1,0 +1,29 @@
+{
+  "id": "1410523b-a38c-48fc-84db-0d4ce50602ff",
+  "timestamp": "2025-07-08T10:23:43.657723",
+  "filename": "23.bmp",
+  "detections": [
+    {
+      "class_name": "聚酯电容",
+      "confidence": 0.8885940909385681,
+      "bbox": [
+        1186,
+        802,
+        2017,
+        1358
+      ]
+    },
+    {
+      "class_name": "热敏电阻",
+      "confidence": 0.6324655413627625,
+      "bbox": [
+        1828,
+        80,
+        2514,
+        672
+      ]
+    }
+  ],
+  "processing_time": 5.860017,
+  "detection_count": 2
+}

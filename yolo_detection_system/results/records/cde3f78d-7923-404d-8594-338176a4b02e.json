@@ -1,0 +1,19 @@
+{
+  "id": "cde3f78d-7923-404d-8594-338176a4b02e",
+  "timestamp": "2025-07-08T09:27:09.547227",
+  "filename": "1.bmp",
+  "detections": [
+    {
+      "class_name": "热敏电阻",
+      "confidence": 0.6119487285614014,
+      "bbox": [
+        1132,
+        654,
+        1840,
+        1374
+      ]
+    }
+  ],
+  "processing_time": 5.6208,
+  "detection_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "id": "be82f458-b156-4c95-8bc4-fab488cd77c1",
+  "timestamp": "2025-07-08T09:27:39.595073",
+  "filename": "24.bmp",
+  "detections": [
+    {
+      "class_name": "聚酯电容",
+      "confidence": 0.8889606595039368,
+      "bbox": [
+        258,
+        781,
+        1058,
+        1645
+      ]
+    },
+    {
+      "class_name": "三端稳压管",
+      "confidence": 0.846168577671051,
+      "bbox": [
+        1053,
+        135,
+        1946,
+        919
+      ]
+    },
+    {
+      "class_name": "热敏电阻",
+      "confidence": 0.6175875067710876,
+      "bbox": [
+        1408,
+        790,
+        2140,
+        1467
+      ]
+    }
+  ],
+  "processing_time": 0.278814,
+  "detection_count": 3
+}
