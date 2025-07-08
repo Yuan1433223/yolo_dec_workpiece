@@ -36,11 +36,10 @@
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/your-username/yolo-component-detection.git
-cd yolo-component-detection
+git clone https://github.com/Yuan1433223/yolo_dec_workpiece.git
+cd yolo_dec_workpiece
 
 2. **安装依赖**
-
 ```bash
 pip install -r requirements.txt```
 
@@ -53,9 +52,8 @@ python app.py```
 本地访问: http://localhost:5000
 公网访问: http://your-ip:port```
 
-📁 项目结构
-bash
-复制
+## 📁 项目结构
+```bash
 yolo_detection_system/
 ├── 📄 app.py                 # Flask后端主程序
 ├── 📄 requirements.txt       # Python依赖列表
@@ -71,19 +69,17 @@ yolo_detection_system/
 │   └── 📊 records/          # 检测记录JSON
 └── 🗂️ utils/
     └── 📄 detector.py        # 检测器工具类
-🎯 使用指南
+```
+
+## 🎯 使用指南
 基本操作
 上传图片: 支持拖拽或点击上传，格式包括 JPG、PNG、BMP
-
 调整置信度: 使用滑块调节检测敏感度 (0.1-1.0)
-
 查看结果: 实时显示检测结果和统计信息
-
 历史记录: 查看之前的检测记录
 
-API接口
-python
-复制
+## API接口
+```python
 # 上传检测
 POST /upload
 Content-Type: multipart/form-data
@@ -95,28 +91,28 @@ GET /history
 
 # 获取结果图片
 GET /result/<record_id>
-返回: 检测结果图片
-📊 性能指标
+返回: 检测结果图片```
+
+## 📊 性能指标
 指标	数值
 检测精度	95.2% mAP@0.5
 处理速度	~200ms/张 (GPU)
 支持分辨率	640×640 (可调整)
 最大文件大小	16MB
 
-🛠️ 自定义配置
+## 🛠️ 自定义配置
 修改检测类别
 编辑 app.py 中的类别映射：
 
-python
-复制
+```python
 CLASS_NAMES = {
     0: '你的类别1',
     1: '你的类别2', 
     2: '你的类别3'
-}
+}```
+
 调整模型参数
-python
-复制
+```python
 # 修改置信度阈值
 conf_threshold = 0.5
 
@@ -124,33 +120,26 @@ conf_threshold = 0.5
 img_size = 640
 
 # 修改设备
-device = 'cuda:0'  # 或 'cpu'
-🤝 贡献指南
+device = 'cuda:0'  # 或 'cpu'```
+
+## 🤝 贡献指南
 欢迎提交Pull Request！请确保：
-
 代码符合PEP8规范
-
 添加适当的注释和文档
-
 通过所有测试用例
-
 更新相关文档
 
-📄 许可证
+## 📄 许可证
 本项目采用MIT许可证 - 详见 LICENSE 文件
 
-🙏 致谢
+## 🙏 致谢
 Ultralytics YOLOv11 - 优秀的目标检测框架
-
 Flask - 轻量级Web框架
-
 OpenCV - 计算机视觉库
 
-📞 联系方式
-📧 Email: your-email@example.com
-
+## 📞 联系方式
+📧 Email: 1249484533@qq.com
 🐛 Issues: GitHub Issues
-
 📖 Wiki: 项目文档
 
-⭐ 如果这个项目对您有帮助，请给我们一个星标！
+## ⭐ 如果这个项目对您有帮助，请给我们一个星标！
